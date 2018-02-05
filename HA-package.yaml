@@ -1,0 +1,201 @@
+
+automation:
+## Automation for button A
+  - alias: "Automation for button A"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'A'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+          
+## Automation for button B
+  - alias: "Automation for button B"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'B'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button C
+  - alias: "Automation for button C"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'C'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button D
+  - alias: "Automation for button D"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'D'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button E
+  - alias: "Automation for button E"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'E'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button F
+  - alias: "Automation for button F"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'F'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button G
+  - alias: "Automation for button G"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'G'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button H
+  - alias: "Automation for button H"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'H'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button I
+  - alias: "Automation for button I"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'I'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button J
+  - alias: "Automation for button J"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'J'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button K
+  - alias: "Automation for button K"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'K'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button L
+  - alias: "Automation for button L"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'L'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button M
+  - alias: "Automation for button M"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'M'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button N
+  - alias: "Automation for button N"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'N'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button O
+  - alias: "Automation for button O"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'O'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+## Automation for button P
+  - alias: "Automation for button P"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: mqtt
+        topic: /MQTTKeypad/key/
+        payload: 'P'
+    action:
+      - service: homeassistant.turn_on
+        entity_id: 
+        
+group:
+  mqtt_keypad:
+   view: false
+   control: hidden
+   entities:
+   - automation.automation_for_button_a
+   - automation.automation_for_button_b
+   - automation.automation_for_button_c
+   - automation.automation_for_button_d
+   - automation.automation_for_button_e
+   - automation.automation_for_button_f
+   - automation.automation_for_button_g
+   - automation.automation_for_button_h
+   - automation.automation_for_button_i
+   - automation.automation_for_button_j
+   - automation.automation_for_button_k
+   - automation.automation_for_button_l
+   - automation.automation_for_button_m
+   - automation.automation_for_button_n
+   - automation.automation_for_button_o
+   - automation.automation_for_button_p
