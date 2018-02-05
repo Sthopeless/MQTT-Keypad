@@ -8,8 +8,10 @@
 #define mqtt_port 1883
 /************************* MQTT TOPICS CONFIGURATION ***************************/
 #define mqtt_command "/MQTTKeypad/commmand/"
-#define mqtt_state "/MQTTKeypad/state/"
+#define mqtt_state "/MQTTKeypad/key/"
 
 #define cmnd_on "On"
 #define cmnd_off "Off"
+#define state_on "Online"
+#define state_off "Offline"
 /*************************** CONFIGURATION ***********************************/
